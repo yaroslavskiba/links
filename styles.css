@@ -63,7 +63,7 @@ button::-moz-focus-inner {
   opacity: 0;
 }
 .link-container:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .link-container:nth-child(2) {
   background-color: #51dbff;
