@@ -56,13 +56,15 @@ button::-moz-focus-inner {
   min-width: 300px;
   max-width: 420px;
   width: 100%;
-  padding: 10px 15px;
+  padding: 11px 15px;
   border-radius: 7px;
   animation: view 1s ease;
   animation-fill-mode: forwards;
   opacity: 0;
 }
-
+.link-container:hover {
+  transform: scale(1.05);
+}
 .link-container:nth-child(2) {
   background-color: #51dbff;
   animation-delay: 0.15s;
@@ -110,6 +112,7 @@ button::-moz-focus-inner {
 }
 
 .info {
+  font-weight: 600;
   flex: 1 1 80%;
   display: flex;
   flex-direction: column;
@@ -118,5 +121,6 @@ button::-moz-focus-inner {
 }
 
 .description {
+  font-weight: 400;
   font-size: 18px;
 }
